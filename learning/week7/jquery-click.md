@@ -59,7 +59,16 @@ $('button#twobars').click(function(){
 })
 
 // TODO: add an event handler for the "Five Bars" button to display five bars
+$('button#fivebars').click(function(){
+    var svg = "<svg><rect height='50' width='10'/><rect height='50' width='10' x='20'/><rect height='50' width='10' x='40'/><rect height='50' width='10' x='60'/><rect height='50' width='10' x='80'/></svg>"
+    $('.myviz').html(svg)
+})
 
 // TODO: add an event handler for the "Five Green Bars" button to display five green bars
+$('button#fivegreenbars').click(function(){
+    var svg = "<svg><rect height='50' width='10' style='fill:green' /><rect height='50' width='10' x='20' style='fill:green' /><rect height='50' width='10' x='40' style='fill:green' /><rect height='50' width='10' x='60' style='fill:green' /><rect height='50' width='10' x='80' style='fill:green' /></svg>"
+    $('.myviz').html(svg)
+})
+
 
 {% endscript %}
