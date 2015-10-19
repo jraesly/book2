@@ -9,8 +9,8 @@ The question class you pick must have at least three variables that can be chang
     <div><h5>Reviews</h5>
         <input id="arg1" type="text" value="Restaurants"/>
     </div>
-    <div><h5>Stars</h5>
-        <input id="arg2" type="number" value="5"/>
+    <div>
+        <input id="arg2" type="hidden" value="5"/>
     </div>
     <div><h5>State</h5>
         <input id="arg3" type="text" value="AZ"/>
